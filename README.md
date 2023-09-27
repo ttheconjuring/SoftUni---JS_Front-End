@@ -12,5 +12,6 @@ Missing Exercises/Not Fully Complete:
 
 - Exercise: Typography in CSS:
 
+  - 4.Buttons CSS (I am lazy)
 
   - 11.Create Typography CSS (didn't have time)
