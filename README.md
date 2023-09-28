@@ -14,4 +14,5 @@ Missing Exercises/Not Fully Complete:
 
   - 4.Buttons CSS (I am lazy)
 
-  - 11.Create Typography CSS (didn't have time)
+  - 11.Create Typography CSS (In progress)
+
