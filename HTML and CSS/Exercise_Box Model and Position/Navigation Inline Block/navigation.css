@@ -1,0 +1,33 @@
+.site-header {
+    border-bottom: solid 2px black;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.site-header p {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-block-end: 0.4em;
+    
+}
+
+.site-header nav { 
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.site-header nav ul {
+    list-style-type: none;
+}
+
+.site-header nav ul li {
+    display: inline-block;
+}
+
+.site-header nav ul li a {
+    text-decoration: none;
+    margin: 0.5em;
+    color: green;
+}
