@@ -1,0 +1,58 @@
+html {
+    box-sizing: content-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport {
+    min-height: 50vh;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-half {
+    background: linear-gradient(to right, skyblue, lightgreen);
+}
+
+.second-half {
+    background: linear-gradient(to right, pink, orange);
+}
+
+.card i {
+    color: white;
+    position: relative;
+    top: -1em;
+    left: -2.5em;
+}
+
+.first-card img {
+    max-width: 25vw;
+    max-height: 25vh;
+    border-radius: 1em;
+}
+
+.second-card img {
+    max-width: 15vw;
+    max-height: 45vh;
+    border-radius: 1em;
+}
+
+
+
+
+
