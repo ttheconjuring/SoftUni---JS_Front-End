@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+body {
+    margin: 3em;
+}
+
+.first-half {
+    display: inline-block;
+    margin-inline-end: 3em;
+    margin-block-end: 3em;
+}
+
+.latest-posts {
+    display: inline-block;
+    position: absolute;
+    max-width: 20ch;
+    min-width: 20ch;
+}
+
+.latest-posts h2 {
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+    margin-inline-start: -1.5em;
+    margin-block-end: .5em;
+}
+
+.article-settings h1 {
+    padding-block-end: .5em;
+}
+
+.article-settings p {
+    max-width: 75ch;
+    line-height: 1.5;
+}
+
+.second-half p {
+    margin-block-end: 1.5em;
+}
+
+.second-half ul {
+    display: inline-block;
+    padding-inline-start: 3em;
+    padding-block-end: 1.5em;
+    line-height: 1.5;
+}
+
+.picture-section {
+    margin-block-end: 1em;
+}
+
+.picture-section img {
+    width: 25vw;
+    height: 35vh;
+}
+
+footer p:first-child {
+    margin-block-end: 1.5em;
+}
