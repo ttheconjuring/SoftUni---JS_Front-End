@@ -1,0 +1,14 @@
+.first-aticle-header {
+    padding-block-end: 1em;
+}
+
+.first-aticle-header h1 {
+    font-size: 1em/1.2;
+    font-family: Georgia, serif;
+}
+
+.first-article-image {
+    float: right;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+}

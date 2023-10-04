@@ -1,0 +1,8 @@
+body {
+    background-color: lightgrey;
+    margin: 5em;
+    max-width: 75ch;
+    min-width: 45ch;
+    font-size: 1rem;
+    line-height: 1.5;
+}

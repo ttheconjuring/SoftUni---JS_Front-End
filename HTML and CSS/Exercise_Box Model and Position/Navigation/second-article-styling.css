@@ -1,0 +1,35 @@
+.second-article-header {
+    padding-block-end: 1em;
+}
+
+.second-article-section {
+    border-left: solid 1px grey;
+    font-weight: bold;
+    position: relative;
+    max-width: 35ch;
+    left: 20em;
+    color: grey;
+    font-style: italic;
+}
+
+.second-article-section p {
+    padding-left: 1.5em;
+}
+
+.second-article-section-author-name {
+    position: relative;
+    left: 8em;
+    bottom: 0.5em;
+}
+
+.second-article-second-paragraph {
+    position: relative;
+    bottom: 12em;
+    text-wrap: balance;
+    max-width: 35ch;
+}
+
+.second-article-third-paragraph {
+    position: relative;
+    bottom: 10em;
+}

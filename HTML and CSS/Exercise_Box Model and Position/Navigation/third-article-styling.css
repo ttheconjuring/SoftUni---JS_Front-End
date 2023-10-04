@@ -1,0 +1,13 @@
+.third-article-section {
+    position: relative;
+    bottom: 8em;
+}
+
+.third-article-section header {
+    padding-block-end: 1em;
+}
+
+.third-article-section img {
+    float: left;
+    padding-right: 1em;
+}

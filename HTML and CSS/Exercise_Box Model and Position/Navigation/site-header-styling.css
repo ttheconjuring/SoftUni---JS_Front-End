@@ -1,0 +1,35 @@
+.site-header {
+    border-bottom: solid 2px black;
+    padding-block-end: .5em;
+    position: relative;
+    margin-block-end: 1.5em;
+    width: 110ch;
+}
+
+.site-header p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: Georgia, serif;
+}
+
+.site-header nav {
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.site-header ul {
+    list-style: none;
+}
+
+.site-header li {
+    display: inline-block;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: green;
+    padding-left: 1em;
+}
