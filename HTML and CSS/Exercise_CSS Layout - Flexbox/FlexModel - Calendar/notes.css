@@ -1,0 +1,16 @@
+.notes {
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20vw;
+
+}
+
+.notes > div {
+    border-top: solid 2px black;
+    text-align: center;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}

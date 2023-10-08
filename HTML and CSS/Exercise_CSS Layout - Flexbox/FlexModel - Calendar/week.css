@@ -1,0 +1,22 @@
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75vw;
+    border: solid 1px black;
+}
+
+.week > div {
+    border: solid 1px black;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    padding: 3em 2em;
+}
+
+.workweek, .weekend {
+    flex-basis: 100%;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday, .saturday, .sunday {
+    flex-grow: 1;
+}
