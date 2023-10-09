@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+
+
+blockquote, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+a {
+    color: rgb(0, 154, 0);
+}
+
+p {
+    padding-bottom: 1.5em;
+
+}
+
+img {
+    background: white;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50em;
+    margin: 4em auto;
+    gap: 4em;
+}
+
+.page > header {
+    border-bottom: solid 2px #000;
+    flex: 1 1 100%;
+    padding-bottom: 2em;
+}
+
+.page > main {
+    flex: 1 0 65%;
+}
+
+.page > aside {
+    flex: 1 0 25%;
+}
+
+img[class*="align"] {
+    display: block;
+    padding: 0.5em;
+    background: #fff;
+    border: solid 6px black;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+aside > h6 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+aside > ul {
+    list-style-type: square;
+    padding-left: 2.5em;
+}
+
+aside > ul > li > a {
+    text-decoration: none;
+}
+
+.special-box {
+    display: flex;
+    align-items: center;
+}
+
+.special-box blockquote {
+    order: 1;
+    flex: 1 1 40%;
+    border-left: solid 2px darkgray;
+    padding-left: 1em;
+    font-style: italic;
+    color: gray;
+}
+
+.special-box p {
+    order: 0;
+    flex: 1 1 60%;
+    padding-right: 1em;
+}
