@@ -1,0 +1,14 @@
+main {
+  padding: 1.5em;
+  align-self: center;
+}
+
+main h2 {
+    font-family: serif;
+    font-weight: normal;
+    margin-bottom: .5em;
+}
+
+main p {
+    margin-bottom: 1.5em;
+}

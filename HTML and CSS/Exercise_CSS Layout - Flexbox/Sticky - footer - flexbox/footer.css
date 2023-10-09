@@ -1,0 +1,9 @@
+footer {
+    position: sticky;
+    max-height: 7vh;
+    align-self: flex-end;
+    flex-basis: 100%;
+    color: white;
+    padding: 1em 2em;
+    background-color: rgb(126, 125, 125);
+}
