@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #DDD;
+  padding: 3em;
+}
+
+section {
+  display: flex;
+  max-width: 90em;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+li {
+  flex-basis: 1 1 200px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  background-color: white;
+  border: solid 6px black;
+  padding: 2em 1em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
