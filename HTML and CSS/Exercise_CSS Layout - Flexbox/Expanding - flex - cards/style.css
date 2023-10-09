@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(238, 238, 238);
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 100vw;
+}
+
+.container ul {
+  display: flex;
+  gap: 1em;
+}
+
+.container li {
+  display: block;
+  width: 10em;
+  height: 25em;
+  overflow: hidden;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease-in-out
+}
+
+.container img {
+  display: block;
+  width: auto;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.container li:hover {
+  width: 35em;
+}
+
+.container li:hover img {
+    transform: translateX(0);
+}
