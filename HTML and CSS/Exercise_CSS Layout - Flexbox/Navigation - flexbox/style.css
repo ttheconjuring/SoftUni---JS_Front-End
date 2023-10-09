@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: solid 2px black;
+}
+
+header p {
+    align-items: center;
+    font-size: 2em;
+    padding-bottom: .5em;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 1em;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+main {
+    font-family: sans-serif;
+    line-height: 1.2;
+    margin-top: 1em;
+}
+
+main h1 {
+    margin-bottom: .5em;
+}
+
+main p {
+    margin-bottom: 1.5em;
+}
+
