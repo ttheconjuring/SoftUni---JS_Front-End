@@ -1,0 +1,6 @@
+@media all {
+    code:hover {
+        color: white;
+        background-color: black;
+    }
+}
