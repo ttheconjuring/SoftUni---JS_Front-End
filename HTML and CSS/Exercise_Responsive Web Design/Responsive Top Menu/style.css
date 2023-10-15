@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    margin: 2em;
+}
+
+header {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: skyblue;
+    flex-wrap: wrap;
+    padding: 2em;
+    border-radius: .5em;
+}
+
+header p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+header nav ul {
+    display: flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 1em 0 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    flex: 1 1 100%;
+    display: flex;
+    gap: 1em;
+}
+
+main section {
+    background-color: skyblue;
+    border-radius: .5em;
+    padding: 1em;
+}
+
+.nav-section {
+    flex: 1 1 15%;
+}
+
+.nav-section nav ul {
+    list-style-type: none;
+}
+
+.nav-section nav ul li {
+    margin-bottom: 1em;
+}
+
+.nav-section nav ul li a {
+    text-decoration: none;
+}
+
+.statistics-section {
+    flex: 1 1 85%;
+}
+
+.statistics-section p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.statistics-section ul {
+    margin-top: .5em;
+    padding-left: 2.5em;
+}
+
+
+footer {
+    flex: 1 1 100%;
+    background-color: skyblue;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+@media (max-width: 500px) {
+    body, main {
+        flex-direction: column;
+    }
+
+    header {
+        display: block;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        flex-wrap: wrap;
+        min-height: 5em;
+        padding: 1em;
+    }
+
+    header nav ul {
+        margin-left: 0;
+        padding-left: 0;
+        display: block;
+    }
+
+    header nav ul li {
+        margin: 1em;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding-left: 5px;
+    }
+
+    .nav-section nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+}
