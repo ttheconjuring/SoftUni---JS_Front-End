@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    padding: 1em;
+}
+
+body > * {
+    background-color: skyblue;
+    border-radius: .5em;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+}
+
+footer {
+    padding: .5em;
+}
+
+header, footer {
+    flex: 1 1 100%;
+}
+
+section {
+    padding: 1em 1em 1em 2em;
+}
+
+.first-section {
+    flex: 1 1 10%;
+}
+
+.first-section nav {
+    display: flex;
+    align-items: center;
+}
+
+.first-section nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.first-section nav ul li {
+    display: block;
+}
+
+.first-section nav ul li a {
+    text-decoration: none;
+    color: purple
+}
+
+.second-section {
+    flex: 1 1 80%;
+}
+
+.second-section h1 {
+    padding-bottom: .5em;
+}
+
+.second-section ul {
+    padding-left: 2em;
+}
+
+@media (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+}
