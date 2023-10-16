@@ -26,8 +26,6 @@ Missing Exercises/Not Fully Complete:
 
   - 7.Responsive Tables
 
-  - 8.Responsive Vertical Timeline
-
   - 9.Company Web Site
 
   - 10.Task Board Web Site
