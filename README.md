@@ -16,3 +16,18 @@ Missing Exercises/Not Fully Complete:
 
   - 11.Create Typography CSS 
 
+- Exercise: Responsive Web Design:
+
+  - 4.Responsive Forms
+
+  - 5.Responsive Media Boxes
+
+  - 6.Landing Page
+
+  - 7.Responsive Tables
+
+  - 8.Responsive Vertical Timeline
+
+  - 9.Company Web Site
+
+  - 10.Task Board Web Site
