@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.site-header h1 span {
+  color: #327dc6;
+}
+
+.site-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.site-content article {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #819daf;
+  border-radius: 1em;
+  padding-bottom: 0.5em;
+}
+
+.site-content article div {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.site-content article .img-section img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+
+.site-content article .text-section {
+  padding: 1em;
+}
+
+.site-content article .text-section h1 {
+  margin-bottom: 0.5em;
+}
+
+.site-content article .text-section p {
+  margin-bottom: 1.5em;
+}
+
+.site-content article .text-section .button {
+  padding: 0.5em 1.5em;
+  background-color: #327dc4;
+  border-radius: 2em;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #323cc4;
+  outline: 1px solid white;
+}
