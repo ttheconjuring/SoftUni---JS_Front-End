@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1em;
+}
+
+.container {
+    max-width: 95vw;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+.no-pain-no-gain-section {
+  color: white;
+  background-color: black;
+  background-image: url("../image/fitness-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid green;
+}
+
+.nav-bar {
+  padding-top: 1em;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  margin: 0 1.5em;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 3em 0;
+}
+
+.main-content a {
+  text-decoration: none;
+  background-color: #D01919;
+  padding: 0.2em 1em;
+  border-radius: 0.3em;
+  color: white;
+}

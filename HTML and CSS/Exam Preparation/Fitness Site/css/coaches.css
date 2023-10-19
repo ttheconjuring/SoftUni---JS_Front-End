@@ -1,0 +1,50 @@
+.coaches-section {
+  padding: 1em 2em 4em 2em;
+  background-color: #EFEFEF;
+}
+
+.coaches-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.coaches-inside h2 {
+  border-bottom: 0.2em solid #D01919;
+  padding-bottom: 0.5em;
+}
+
+.coaches-articles {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.coaches-articles article {
+  flex: 0 1 30%;
+  text-align: center;
+}
+
+.coaches-articles article > * {
+  padding: 0.5em 0;
+}
+
+.coaches-articles article h5 {
+  color: red;
+}
+
+.coaches-articles article p {
+    color: #A6A1A5;
+}
+
+.coaches-article-image {
+  display: flex;
+  justify-content: center;
+}
+
+.coaches-article-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5em;
+}

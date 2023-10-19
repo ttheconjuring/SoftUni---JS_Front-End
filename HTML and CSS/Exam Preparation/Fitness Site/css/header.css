@@ -1,0 +1,25 @@
+header {
+    background-color: #D01919;
+    padding: 0.5em 1em;
+}
+
+.header-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons-container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social-icons-container ul li {
+    margin: 0 0.2em;
+}
+
+.header-inside i,
+.header-inside p {
+    color: white;
+}
