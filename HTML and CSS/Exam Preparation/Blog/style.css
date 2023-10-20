@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    gap: 1em;
+    background-color: #F6E0B5;
+    padding: 2em;
+}
+
+.article-section {
+    flex: 1 1 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.basic-article {
+    flex: 1 1 40%;
+    background-color: #65535D;
+    padding-bottom: 0.5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.basic-article p {
+    padding-left: 0.5em;
+    color: white;
+}
+
+.basic-aricle-image {
+    margin-bottom: 0.5em;
+}
+
+.basic-aricle-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    display: block;
+}
+
+.text-section {
+    flex: 1 1 25%;
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    color: #65535D;
+}
+
+.text-section-list p {
+    margin-bottom: 1em;
+}
+
+.text-section-list ul {
+    list-style-type: none;
+}
+
+.text-section-list ul li {
+    display: block;
+    margin: 0.5em 0;
+}
