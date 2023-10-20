@@ -1,0 +1,63 @@
+.header {
+    padding: 1em;
+    background-color: gray;
+    background-image: url(../images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-bar,
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5em;
+    margin-bottom: 10em;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    margin: 0 0.5em;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar ul li:last-of-type a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.5em;
+    border-radius: 1em;
+}
+
+.header-content {
+    margin-bottom: 5em;
+}
+
+.header-content h3 {
+    padding-bottom: 1.5em;
+}
+
+.header-content p {
+    padding-bottom: 1em;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 0.2em 0.5em;
+    border-radius: 1em;
+}
