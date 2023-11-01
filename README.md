@@ -30,12 +30,12 @@ Missing Exercises/Not Fully Complete From "HTML and CSS":
 
   - 10.Task Board Web Site
 
-  Missing Exercises/Not Fully Complete From "JS Front-End":
+Missing Exercises/Not Fully Complete From "JS Front-End":
 
-   - Exercise: JS Syntax Fundamentals:
+- Exercise: JS Syntax Fundamentals:
    
-     - 2.Words Uppercase
+  - 2.Words Uppercase
 
-     - 4.Gladiator Expenses
+  - 4.Gladiator Expenses
 
-     - 5.Spice Must Flow
+  - 5.Spice Must Flow
