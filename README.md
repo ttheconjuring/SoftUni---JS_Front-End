@@ -2,7 +2,7 @@
 
 Solutions Of Exercises From SoftUni JS Front-End Module (In progress).
 
-Missing Exercises/Not Fully Complete:
+Missing Exercises/Not Fully Complete From "HTML and CSS":
 
 - Introduction to HTML and CSS:
 
@@ -29,3 +29,13 @@ Missing Exercises/Not Fully Complete:
   - 9.Company Web Site
 
   - 10.Task Board Web Site
+
+  Missing Exercises/Not Fully Complete From "JS Front-End":
+
+   - Exercise: JS Syntax Fundamentals:
+   
+     - 2.Words Uppercase
+
+     - 4.Gladiator Expenses
+
+     - 5.Spice Must Flow
