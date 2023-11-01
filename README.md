@@ -36,6 +36,4 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
    
   - 2.Words Uppercase
 
-  - 4.Gladiator Expenses
-
   - 5.Spice Must Flow
