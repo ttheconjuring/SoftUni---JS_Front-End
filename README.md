@@ -6,13 +6,13 @@ Missing Exercises/Not Fully Complete From "HTML and CSS":
 
 - Introduction to HTML and CSS:
 
-  - 13.Select Cardio: Class (Judge Fault)
+  - 13.Select Cardio: Class
 
-  - 14.Selector Cardio: ID (Judge Fault)
+  - 14.Selector Cardio: ID
 
 - Exercise: Typography in CSS:
 
-  - 4.Buttons CSS (I am lazy)
+  - 4.Buttons CSS 
 
   - 11.Create Typography CSS 
 
