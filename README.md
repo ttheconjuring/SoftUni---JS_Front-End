@@ -32,8 +32,16 @@ Missing Exercises/Not Fully Complete From "HTML and CSS":
 
 Missing Exercises/Not Fully Complete From "JS Front-End":
 
-- Exercise: JS Syntax Fundamentals:
+- More Exercises: JS Syntax Fundamentals:
    
   - 2.Words Uppercase
 
   - 5.Spice Must Flow
+
+- More Exercises: JS Arrays and Strings
+
+  - 1.Login
+
+  - 2.Bitcoin "Mining"
+
+  - 3.The Pyramid of King Djoser
