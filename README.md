@@ -40,8 +40,6 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
 
 - More Exercises: JS Arrays and Strings
 
-  - 1.Login
-
   - 2.Bitcoin "Mining"
 
   - 3.The Pyramid of King Djoser
