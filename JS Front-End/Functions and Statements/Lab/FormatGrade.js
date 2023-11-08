@@ -11,7 +11,3 @@ function checkGrade(grade) {
     console.log(`Excellent (${grade.toFixed(2)})`);
   }
 }
-
-checkGrade(3.33);
-checkGrade(4.50);
-checkGrade(2.99);
