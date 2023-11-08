@@ -15,8 +15,3 @@ function signCheck(a, b, c) {
     console.log("Negative");
   }
 }
-
-signCheck(5, 5, 5);
-signCheck(-5, 5, 5);
-signCheck(-5, -5, 5);
-signCheck(-5, -5, -5);
