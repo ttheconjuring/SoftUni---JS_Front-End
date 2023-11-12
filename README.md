@@ -12,9 +12,9 @@ Missing Exercises/Not Fully Complete From "HTML and CSS":
 
 - Exercise: Typography in CSS:
 
-  - 4.Buttons CSS 
+  - 4.Buttons CSS
 
-  - 11.Create Typography CSS 
+  - 11.Create Typography CSS
 
 - Exercise: Responsive Web Design:
 
@@ -33,7 +33,7 @@ Missing Exercises/Not Fully Complete From "HTML and CSS":
 Missing Exercises/Not Fully Complete From "JS Front-End":
 
 - More Exercises: JS Syntax Fundamentals:
-   
+
   - 2.Words Uppercase
 
   - 5.Spice Must Flow
@@ -43,3 +43,9 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
   - 2.Bitcoin "Mining"
 
   - 3.The Pyramid of King Djoser
+
+- More Exercises: Functions and Statements
+
+  - 4.Radio Crystals
+
+  - 5.Print DNA
