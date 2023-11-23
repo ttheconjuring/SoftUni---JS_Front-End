@@ -49,3 +49,5 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
   - 4.Radio Crystals
 
   - 5.Print DNA
+
+- More Exercises: Objects and Classes: all
