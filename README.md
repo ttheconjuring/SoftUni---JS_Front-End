@@ -50,4 +50,30 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
 
   - 5.Print DNA
 
-- More Exercises: Objects and Classes: all
+- More Exercises: Objects and Classes: 
+  
+  - 3.Class Laptop
+
+  - 4.Flight Schedule
+
+  - 5.School Register
+
+  - 6.Browser History
+
+  - 7.Sequences
+
+  - 8.Garage
+
+  - 9.Armie
+
+  - 10.Comments
+
+  - 11.Book Shelf
+
+  - 12.SoftUni Students
+
+- Exercise: DOM Introduction
+
+  - 7.Hell's Kitchen
+
+  - 9.Number Convertor 
