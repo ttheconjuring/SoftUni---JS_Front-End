@@ -74,6 +74,4 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
 
 - Exercise: DOM Introduction
 
-  - 7.Hell's Kitchen
-
   - 9.Number Convertor 
