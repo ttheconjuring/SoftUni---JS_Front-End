@@ -24,7 +24,9 @@ function loadRepos() {
           addLiToUl(repository.html_url, repository.full_name)
         );
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        ul.firstChild.firstChild.textContent = err;
+      });
   }
 
   function clearUl() {
