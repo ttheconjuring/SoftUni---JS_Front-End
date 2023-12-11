@@ -50,8 +50,8 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
 
   - 5.Print DNA
 
-- More Exercises: Objects and Classes: 
-  
+- More Exercises: Objects and Classes:
+
   - 3.Class Laptop
 
   - 4.Flight Schedule
@@ -74,4 +74,12 @@ Missing Exercises/Not Fully Complete From "JS Front-End":
 
 - Exercise: DOM Introduction
 
-  - 9.Number Convertor 
+  - 9.Number Convertor
+
+- Exercise: HTTTP and AJAX
+
+  - 6.Accordion
+
+  - 7.Fisher Game
+
+  - 8.Furniture
